@@ -25,45 +25,70 @@
 
 ## 🛠️ Built With
 
-- **Language:** [Python 3.10+](https://www.python.org/)
-- **HTTP Client:** [httpx](https://www.python-httpx.org/) *(Async HTTP)*
-- **DNS Resolver:** [dnspython](https://www.dnspython.org/) *(Async DNS)*
-- **Terminal UI:** [Rich](https://rich.readthedocs.io/)
+| Tool | Description |
+|------|-------------|
+| [Python 3.10+](https://www.python.org/) | Core language |
+| [httpx](https://www.python-httpx.org/) | Async HTTP client |
+| [dnspython](https://www.dnspython.org/) | Async DNS resolver |
+| [Rich](https://rich.readthedocs.io/) | Terminal UI library |
 
 ---
 
-## 💻 How to Run in Your IDE
+## 💻 Installation & Usage
 
-### 1. Clone the repository
+### 1. Clone the Repository
+
 ```bash
-git clone [https://github.com/zakariaelqannaa-dv/betafastdomain.git](https://github.com/zakariaelqannaa-dv/betafastdomain.git)
-cd betafastdomain
-2. Set up a Virtual Environment
-Bash
-# Windows
+git clone https://github.com/zakariaelqannaa-dv/BetaFastDomain.git
+cd BetaFastDomain
+```
+
+### 2. Set Up Virtual Environment
+
+**Windows:**
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-# macOS / Linux
+**macOS / Linux:**
+```bash
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
-## Bash
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install httpx dnspython rich
-4. Run the Application
+```
 
-## Bash
+### 4. Run the Application
+
+```bash
 python app.py
+```
 
-###📂 Project Structure
-Plaintext
-betafastdomain/
+---
+
+## 📂 Project Structure
+
+```
+BetaFastDomain/
 ├── app.py         # Main CLI Application & Terminal UI
 ├── checker.py     # Asynchronous DNS & RDAP Core Logic
 └── README.md      # Documentation
+```
 
-###👤 Author
-zakariaelqannaa-dv
+---
 
-### 📝 License
-This project is MIT licensed.
+## 👤 Author
+
+**zakariaelqannaa-dv**  
+GitHub: [@zakariaelqannaa-dv](https://github.com/zakariaelqannaa-dv)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
